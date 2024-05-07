@@ -1,0 +1,16 @@
+Package: Labelmaker
+Title: Facilitates Easy Creation and Modification of SPSS Style Labels
+Version: 0.0.0.9000
+Authors@R: 
+    person("Thomas", "May", , "tm658@cornell.edu", role = c("aut", "cre"))
+Description: Generates R script that can be used to add SPSS style 
+    variable and/or value labels to an R dataset. Additionally can be used to
+    check dataset for variables that contain values without a corresponding value label.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    labelled,
+    tidyr
